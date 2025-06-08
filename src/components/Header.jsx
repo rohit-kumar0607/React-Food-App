@@ -17,7 +17,7 @@ export default function Header() {
 
         <div id="title">
             <img src={logoimg} alt="logopic" />
-            <h1 >World Tadka</h1>
+            <h1 >SALT & CHILLI</h1>
         </div>
         <nav>
             <Button textonly={true} onClick={handleshowcart}>🛒 Cart [{totalcartitems}]</Button>
