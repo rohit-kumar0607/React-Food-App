@@ -1,5 +1,5 @@
 import Error from "./Error.jsx";
-import useHttp from "./hooks/useHttp.jsx";
+import useHttp from "./hooks/useHttp.js";
 import Mealitem from "./Mealitem.jsx";
 const requestconfig = {};
 export default function Meals() {
