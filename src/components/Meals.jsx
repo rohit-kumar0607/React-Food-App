@@ -5,7 +5,7 @@ const requestconfig = {};
 export default function Meals() {
     const { data: loadedmeals
         , isloading
-        , error } = useHttp("http://localhost:3000/meals", requestconfig, [])
+        , error } = useHttp("https://react-food-app-3avz.onrender.com/meals", requestconfig, [])
 
     if (isloading) {
         return <p className="center">meals fetching...</p>
