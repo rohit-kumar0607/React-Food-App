@@ -18,7 +18,7 @@ export default function Checkout() {
     const crtcontx = useContext(CartContext);
     const usercntx = useContext(Userprogresscontext);
 
-    const { data, error, sendRequest,cleardata } = useHttp('http://localhost:3000/orders', reqconfig)
+    const { data, error, sendRequest, cleardata } = useHttp('https://react-food-app-3avz.onrender.com/orders', reqconfig)
     const carttotal = crtcontx.items.reduce(
         (totalprice, item) => totalprice + item.quantity * item.price, 0
     )
