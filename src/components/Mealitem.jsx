@@ -3,10 +3,10 @@ import CartContext from "../store/CartContext";
 import { useContext } from "react";
 const API_URL = "https://react-food-app-3avz.onrender.com";
 
-<img src={`${API_URL}/${meal.image}`} alt={meal.name} />
 
 
 export default function Mealitem({meal}){
+<img src={`${API_URL}/${meal.image}`} alt={meal.name} />
     const crtcntx=useContext(CartContext);
     const quantity=crtcntx.getitemquantity(meal.id);
 
